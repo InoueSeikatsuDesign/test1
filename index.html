@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <!-- <link href="print.css" rel="stylesheet" type="text/css" media="print"> -->
+  <script src="./script.js" defer></script>
+</head>
+<body>
+  <header><span>今日の天気</span></header>
+  <div id="bg">
+  <div class="card">
+    <div class="search">
+      <input type="text" class="search-bar" placeholder="Search">
+      <button>
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" width="24px" height="24px">
+          <g id="surface1281786">
+          <path style=" stroke:none;fill-rule:nonzero;fill:rgb(80.000001%,80.000001%,80.000001%);fill-opacity:1;" d="M 9 2 C 5.144531 2 2 5.144531 2 9 C 2 12.855469 5.144531 16 9 16 C 10.746094 16 12.34375 15.347656 13.574219 14.28125 L 14 14.707031 L 14 16 L 20 22 L 22 20 L 16 14 L 14.707031 14 L 14.28125 13.574219 C 15.347656 12.34375 16 10.746094 16 9 C 16 5.144531 12.855469 2 9 2 Z M 9 4 C 11.773438 4 14 6.226562 14 9 C 14 11.773438 11.773438 14 9 14 C 6.226562 14 4 11.773438 4 9 C 4 6.226562 6.226562 4 9 4 Z M 9 4 "/>
+          </g>
+        </svg>
+      </button>
+    </div>
+    <div class="weather loading">
+      <h2 class="city">Weather in Denver</h2>
+      <h1 class="temp">51°C</h1>
+      <div class="flex">
+        <img src="https://openweathermap.org/img/wn/04n.png" alt="" class="icon" width="100px"/>
+        <!-- <div class="description">Cloudy</div> -->
+      </div>
+      <div class="humidity">Humidity: 60%</div>
+      <div class="wind">Wind speed: 6.2 km/h</div>
+    </div>
+  </div>
+
+  </div>
+</body>
+
+</html>
